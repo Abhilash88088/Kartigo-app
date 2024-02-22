@@ -1,0 +1,28 @@
+<!-- <nav class="navbar">
+    <div class="container">
+        <img src="assets/shopping-cart.png" alt="logo" height="25px" width="50px">
+        <a routerLink="/logo"><h1>Ekart</h1></a></div>
+    <div class="link">
+        <div class="home"><a routerLink="/home" style="text-decoration: none;"><h3>Home</h3></a></div>
+        <div class="cart"><a routerLink="/cart"style="text-decoration:none"><h3>Cart</h3></a></div>
+        
+    </div>
+</nav> -->
+<header>
+    <div class="navbar bg-secondary">
+        <div class="navbar-brand align-item-center d-flex">
+            <img src="assets/Shoppingcart.png" alt="logo" height="40px" width="40px">;
+            <div class="btn" style="color: orange;font-family: ink free;font-size: 30px;" routerLink="logo">    
+            <strong>Kartigo</strong></div>
+        </div>
+        <div class="Catogories">
+        <button class="btn btn-secondary" style="font-size: 20px;" routerLink="home"> Allproducts</button>
+        <button class="btn btn-secondary" style="font-size: 20px;" routerLink="categories"> Categories</button>
+        <button class="btn btn-secondary" style="font-size: 20px;" routerLink="login"> Login</button>
+        <button class="btn btn-primary" style="font-size: 20px;" routerLink="cart">Cart
+        <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div></button>
+
+       </div>
+    </div>
+</header>
+

@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    max-height:65px;
+    width: 100%;
+    background-color: #6c757d; /* Grey background color */
+    color: #000000; /* Black text color */
+    padding: 20px; /* Add padding for spacing */
+    padding-left: 30%;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+

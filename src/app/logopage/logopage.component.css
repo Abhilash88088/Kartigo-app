@@ -1,0 +1,19 @@
+.cards{
+    padding-left: 4px;
+    display:grid;
+    border:0px solid aqua;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-column-gap: 7px;
+}
+p{
+font-size: 20px;
+text-align: center;
+font-style: italic;
+}
+h3{
+    padding-left: 90px;
+
+}
+.button{
+    pointer-events: none;
+}

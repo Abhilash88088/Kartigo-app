@@ -1,0 +1,24 @@
+.image{
+    width: 100px;
+    height: 100px;
+    /* margin-bottom: 15px;
+    transition: 0.3s ease-in-out;    */
+}
+ /* .card{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 120px;
+}  */
+/* .card image:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+} */
+.card{
+    margin: 30px;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+.card:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
